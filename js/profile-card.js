@@ -32,9 +32,9 @@ window.addEventListener("DOMContentLoaded", async function () {
             </div>
             <div style="margin-top: 12px; display: flex; justify-content: space-evenly; align-items: center; ">
                 <div style="margin-top: -4px">
-                <span style="font-size: 10px; font-weight: 500; color: #586069;">
-                    LINKEDIN PROFILE
-                </span>
+                // <span style="font-size: 10px; font-weight: 500; color: #586069;">
+                //     LINKEDIN PROFILE
+                // </span>
                 <div style="font-weight: 400; color: #211F1F; font-size: 12px; margin-top: 2px; justify-content: space-evenly; align-items: center;">
                     <a href="${profile.link}" target="_blank" style="font-weight: 600; color: #0077b5; font-size: 14px;">
                     Visit LinkedIn

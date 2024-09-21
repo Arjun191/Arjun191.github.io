@@ -206,27 +206,31 @@ export const projects = {
 
 export const education = [
   {
-    title: "B.Tech. in Computer Science and Engineering",
-    duration: "2016 - 2020",
-    subtitle: "National Institute of Technology, Warangal",
+    title: "Master of Science in Robotics",
+    duration: "2023 - 2025",
+    subtitle: "Carneige Mellon University, Pittsburgh, PA",
     details: [],
     tags: [
-      "Data Structures & Algorithms",
-      "Operating Systems",
-      "Database Management System",
-      "Computer Networks",
-      "Compiler Designing",
-      "Cloud Computing",
+      "Localization and Mapping",
+      "Computer Vision",
+      "Visual Learning and Recognition",
+      "Intro to Robot Learning",
     ],
     icon: "graduation-cap",
   },
   {
-    title: "Class 12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
+    title: "B.Tech in Eletrical and Electronics Engineering",
+    duration: "2019 - 2023",
+    subtitle: "National Institute of Technology, Tiruchirappalli, India",
     details: [],
-    tags: ["Physics", "Chemistry", "Mathematics"],
-    icon: "book",
+    tags: [
+      "Modern Control Theory",
+      "Digital and Analog Electronics",
+      "Artificial Intelligence",
+      "VLSI",
+      "Industrial Automation and Fuzzy Logic",
+    ],
+    icon: "graduation-cap",
   },
 ];
 
