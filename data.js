@@ -277,20 +277,16 @@ export const footer = [
     //     link: "https://twitter.com/thesigmakid",
     //   },
       {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
-      },
-      {
-        text: "Github/vinaysomawat.github.io",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+        text: "Github/arjun191.github.io",
+        link: "https://github.com/arjun191/arjun191.github.io",
       },
     ],
   },
-  {
-    label: "copyright-text",
-    data: [
-      "Made with &hearts; by Vinay Somawat.",
-      "&copy; No Copyrights. Feel free to use this template.",
-    ],
-  },
+  // {
+  //   label: "copyright-text",
+  //   data: [
+  //     "Made with &hearts; by Vinay Somawat.",
+  //     "&copy; No Copyrights. Feel free to use this template.",
+  //   ],
+  // },
 ];
