@@ -112,24 +112,21 @@ import { URLs } from './user-data/urls.js';
   
   function populateSkills(items, id) {
     const skillsTag = document.getElementById(id);
-    items.forEach(({ skillName, color, percentage }) => {
-      const h3 = getElement("h3", null);
-      h3.innerHTML = skillName;
-  
-      const divProgress = getElement("div", "progress");
-      const divProgressBar = getElement("div", `progress-bar color-${color}`);
-      divProgressBar.style = `width: ${percentage}%`;
-      divProgress.append(divProgressBar);
-  
-      const divProgressWrap = getElement("div", "progress-wrap");
-      divProgressWrap.append(h3, divProgress);
-  
-      const divAnimateBox = getElement("div", "col-md-6 animate-box");
-      divAnimateBox.append(divProgressWrap);
-  
-      skillsTag.append(divAnimateBox);
+    items.forEach(({ skillName }) => {
+        const h3 = getElement("h3", null);
+        h3.innerHTML = skillName;
+      
+        // Create div for skill name without the progress bar
+        const divProgressWrap = getElement("div", "progress-wrap");
+        divProgressWrap.append(h3);
+      
+        const divAnimateBox = getElement("div", "col-md-6 animate-box");
+        divAnimateBox.append(divProgressWrap);
+      
+        skillsTag.append(divAnimateBox);
     });
-  }
+}
+
   
   /**
    * Populates projects to the HTML page.

@@ -1,6 +1,6 @@
 export const bio = [
-  "Hello! I'm Venkata Nagarjun P M, a Master's in Robotics student at Carnegie Mellon University. I have experience in Computer Vision focused on 3D reconstruction, Splatting and SLAM. I also perform research in Machine Learnign focused towards decision making with sequential streams for robotics applications",
-  "I am passionate about all things Autonomous Driving and always looking to develop projects centered around it.",
+  "Hello! I'm Venkata Nagarjun P M, a Master's in Robotics (MSR) student at Carnegie Mellon University (CMU). I have experience in Computer Vision focused on 3D reconstruction, Splatting and SLAM. My research is focused towards decision making with sequential streams for robotics applications",
+  "I am passionate about all things Autonomous Driving and am always looking to develop projects centered around it.",
   "Thanks for visiting!",
 ];
 
