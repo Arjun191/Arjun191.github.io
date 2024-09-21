@@ -103,7 +103,7 @@ export const experience = [
     tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
     icon: "group",
   },
-];
+];  
 
 export const projects = {
   webProjects: [
