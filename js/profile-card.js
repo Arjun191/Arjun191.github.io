@@ -35,7 +35,7 @@ window.addEventListener("DOMContentLoaded", async function () {
                 <span style="font-size: 10px; font-weight: 500; color: #586069;">
                     LINKEDIN PROFILE
                 </span>
-                <div style="font-weight: 400; color: #211F1F; font-size: 12px; margin-top: 2px">
+                <div style="font-weight: 400; color: #211F1F; font-size: 12px; margin-top: 2px; justify-content: space-evenly; align-items: center;">
                     <a href="${profile.link}" target="_blank" style="font-weight: 600; color: #0077b5; font-size: 14px;">
                     Visit LinkedIn
                     </a>

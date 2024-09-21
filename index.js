@@ -112,13 +112,19 @@ import { URLs } from './user-data/urls.js';
   
   function populateSkills(items, id) {
     const skillsTag = document.getElementById(id);
-    items.forEach(({ skillName }) => {
+    items.forEach(({ title, skillName }) => {
+        // Create title element
+        const h2 = getElement("h2", null);
+        h2.innerHTML = title;
+      
+        // Create skill name element
         const h3 = getElement("h3", null);
         h3.innerHTML = skillName;
       
-        // Create div for skill name without the progress bar
+        // Create div for skill title and name
         const divProgressWrap = getElement("div", "progress-wrap");
-        divProgressWrap.append(h3);
+        divProgressWrap.append(h2);  // Append title first
+        divProgressWrap.append(h3);  // Append skill name below it
       
         const divAnimateBox = getElement("div", "col-md-6 animate-box");
         divAnimateBox.append(divProgressWrap);
@@ -126,6 +132,7 @@ import { URLs } from './user-data/urls.js';
         skillsTag.append(divAnimateBox);
     });
 }
+
 
   
   /**
