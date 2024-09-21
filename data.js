@@ -1,39 +1,27 @@
 export const bio = [
-  "Hello! I'm Vinay Somawat, an experienced Frontend Software Engineer with a proven ability to upgrade applications, optimize performance, and deliver innovative solutions.",
-  "I am passionate about using my technical skills to drive impactful contributions in challenging projects.",
+  "Hello! I'm Venkata Nagarjun P M, a Master's in Robotics student at Carnegie Mellon University. I have experience in Computer Vision focused on 3D reconstruction, Splatting and SLAM. I also perform research in Machine Learnign focused towards decision making with sequential streams for robotics applications",
+  "I am passionate about all things Autonomous Driving and always looking to develop projects centered around it.",
   "Thanks for visiting!",
 ];
 
 export const skills = [
   {
     title: "Languages",
-    skillName: "JavaScript, TypeScript",
+    skillName: "Python, C++, C, MATLAB",
     color: "1",
-    percentage: "80",
+    // percentage: "80",
   },
   {
-    title: "Frameworks/Libraries",
-    skillName: "Angular, RxJS, NGRX/NGXS",
+    title: "Frameworks/Libraries/Tools",
+    skillName: "Pytorch, Tensorforce, OpenCV, ROS, MATLAB, Simulink, Git, Linux",
     color: "6",
-    percentage: "70",
+    // percentage: "70",
   },
   {
-    title: "Design",
-    skillName: "HTML, Bootstrap, Tailwind",
+    title: "Perception and Machine Learning",
+    skillName: "SLAM, Gaussian Splatting, CNN, Generative Models, Sequential Models",
     color: "4",
-    percentage: "70",
-  },
-  {
-    title: "Version Control",
-    skillName: "GitHub, JIRA, Bitbucket",
-    color: "7",
-    percentage: "70",
-  },
-  {
-    title: "Tools",
-    skillName: "Debugging, Chrome DevTools",
-    color: "3",
-    percentage: "80",
+    // percentage: "70",
   },
 //   {
 //     title: "Analytics",
