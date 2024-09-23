@@ -480,10 +480,12 @@ import { URLs } from './user-data/urls.js';
   // fetchBlogsFromMedium(medium);
   fetchGitConnectedData(gitConnected);
   
-  populateProjects(webProjects, "web-projects");
-  populateProjects(softwareProjects, "software-projects");
-  populateProjects(androidProjects, "android-projects");
-  populateProjects(freelanceProjects, "freelance-projects");
+  // populateProjects(webProjects, "web-projects");
+  // populateProjects(softwareProjects, "software-projects");
+  // populateProjects(androidProjects, "android-projects");
+  // populateProjects(freelanceProjects, "freelance-projects");
+
+  populateExp_Edu(projects, "projects");
   
   populateExp_Edu(experience, "experience");
   populateExp_Edu(education, "education");
