@@ -125,7 +125,7 @@ export const education = [
     icon: "graduation-cap",
   },
   {
-    title: "B.Tech in Eletrical and Electronics Engineering",
+    title: "B.Tech in Electrical and Electronics Engineering",
     duration: "2019 - 2023",
     subtitle: "National Institute of Technology, Tiruchirappalli, India",
     details: [],
